@@ -29,6 +29,21 @@ const Nutrition: React.FC<INutritionProps> = (props) => {
           <h1 className="text-red-500 text-2xl">Nutrition Plans</h1>
           <h1 className="text-red-500 text-2xl">Nutrition Plans</h1>
           <h1 className="text-red-500 text-2xl">Nutrition Plans</h1>
+          <h1 className="text-red-500 text-2xl">Nutrition Plans</h1>
+          <h1 className="text-red-500 text-2xl">Nutrition Plans</h1>
+          <h1 className="text-red-500 text-2xl">Nutrition Plans</h1>
+          <h1 className="text-red-500 text-2xl">Nutrition Plans</h1>
+          <h1 className="text-red-500 text-2xl">Nutrition Plans</h1>
+          <h1 className="text-red-500 text-2xl">Nutrition Plans</h1>
+          <h1 className="text-red-500 text-2xl">Nutrition Plans</h1>
+          <h1 className="text-red-500 text-2xl">Nutrition Plans</h1>
+          <h1 className="text-red-500 text-2xl">Nutrition Plans</h1>
+          <h1 className="text-red-500 text-2xl">Nutrition Plans</h1>
+          <h1 className="text-red-500 text-2xl">Nutrition Plans</h1>
+          <h1 className="text-red-500 text-2xl">Nutrition Plans</h1>
+          <h1 className="text-red-500 text-2xl">Nutrition Plans</h1>
+          <h1 className="text-red-500 text-2xl">Nutrition Plans</h1>
+          <h1 className="text-red-500 text-2xl">Nutrition Plans</h1>
       </>
     );
 };
