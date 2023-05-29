@@ -5,9 +5,7 @@ export interface ISettingsProps {};
 const Settings: React.FC<ISettingsProps> = (props) => {
     return (
       <>
-        <a href="/nutrition">
-            <button className="bg-blue-500 rounded-xl">Nutrition</button>
-        </a>
+        <h1 className="text-red-500">Settings</h1>
       </>
     );
 };

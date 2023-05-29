@@ -1,13 +1,12 @@
 import React from "react";
+import { Outlet } from "react-router-dom";
 
 export interface IProgramsProps {};
 
 const Programs: React.FC<IProgramsProps> = (props) => {
     return (
       <>
-        <a href="/nutrition">
-            <button className="bg-blue-500 rounded-xl">Nutrition</button>
-        </a>
+            <h1 className="text-red-500">Programs</h1>
       </>
     );
 };
