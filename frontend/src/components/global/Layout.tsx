@@ -45,8 +45,8 @@ const Layout: React.FC<ILayoutProps> = (props) => {
             shortcut="mod + shift + c"
             nothingFoundMessage="Nothing found..."
           ></SpotlightProvider>
-          <div className="h-[100vh]">
-            <div className={`h-32 text-center pt-16 font-bold text-white text-3xl cursor-pointer ${toggleSidebar === true ? "" : "-mt-24"} transition-all duration-300 ease-in-out`}>LOGO</div>
+          <div className="h-screen">
+            <div className={`h-32 pt-16 text-center font-bold text-white text-3xl cursor-pointer ${toggleSidebar === true ? "" : "-mt-24"} transition-all duration-300 ease-in-out`}>LOGO</div>
             <div className={`absolute top-20 ${toggleSidebar === true ? "left-56" : "left-16 rotate-180"} flex items-center cursor-pointer text-white transition-all duration-300 ease-in-out`} 
                   onClick={() => setToggleSidebar(!toggleSidebar)} >
               <IconCircleArrowLeftFilled className="overflow-visible z-20" viewBox="0 0 12 12" />
